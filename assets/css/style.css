@@ -215,3 +215,28 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* These rules tke effect when the browser's width is either 768px or less. */
+
+@media screen and (max-width: 980px) {
+ 
+/* #masthead {
+    width: auto;
+  }   */
+}
+
+@media screen and (max-width: 768px) {
+
+  #masthead {
+    width: auto;
+    
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    width: auto;
+    position: fixed;
+  }
+}
